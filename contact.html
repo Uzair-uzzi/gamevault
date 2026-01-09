@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us – GameVault</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">
+            GameVault</a></div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Genres ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">RPG</a></li>
+                        <li><a href="#">Adventure</a></li>
+                        <li><a href="#">Horror</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="games.html">Games</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page" style="background-image: url('https://www.shutterstock.com/image-vector/contact-us-customer-support-hotline-600nw-2561218445.jpg'); 
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat; 
+                height: 100vh; 
+                display: flex; 
+                flex-direction: column; 
+                justify-content: center; 
+                align-items: center; 
+                color: white; 
+                text-align: center;">
+        <h2>Contact Us</h2>
+        <p>
+            This page is created for academic purposes only.
+        </p>
+
+        <form class="contact-form" action="https://formspree.io/f/xzddprdl" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </section>
+
+    <footer>
+        <p>© 2026 GameVault | University Project</p>
+        <footer class="site-footer">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/gamerboiheavy" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/whysorudeuzzi/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/whysorudeuzzi" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-uzair-aslam-1802a8230/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </footer>
+
+    </footer>
+
+</body>
+
+</html>
