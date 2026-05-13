@@ -6,7 +6,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
+<script>
+  window.addEventListener('scroll', () => {
+    const header = document.querySelector('header');
+    header.style.background = window.scrollY > 50
+      ? 'rgba(2, 6, 23, 0.97)'
+      : '#020617';
+    header.style.transition = 'background 0.3s ease';
+  });
+</script>
 <body>
 
     <header>
